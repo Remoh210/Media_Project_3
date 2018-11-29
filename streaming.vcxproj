@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B373E137-0CD7-3B2B-9087-2A3F77D4ADFD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>streaming</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">media_fundamentals.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">media_fundamentals</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>common\lib\fmod_vc.lib;common\lib\glfw3.lib;common\lib\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Nyan/Documents/MEGA/College/MEDEA/Projects/Project3/Debug/media_fundamentals.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Nyan/Documents/MEGA/College/MEDEA/Projects/Project3/Debug/media_fundamentals.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\glad.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <None Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\shaders\simple_light.frag" />
+    <None Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\shaders\simple_light.vert" />
+    <None Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\shaders\simple_text.frag" />
+    <None Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\shaders\simple_text.vert" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\camera.cpp" />
+    <ClInclude Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\camera.h" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\cobject.cpp" />
+    <ClInclude Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\cobject.h" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\console.cpp" />
+    <ClInclude Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\console.h" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\gl_math.cpp" />
+    <ClInclude Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\gl_math.h" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\mat4.cpp" />
+    <ClInclude Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\mat4.h" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\utils.cpp" />
+    <ClInclude Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\utils.h" />
+    <ClCompile Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\vec3.cpp" />
+    <ClInclude Include="C:\Users\Nyan\Documents\MEGA\College\MEDEA\Projects\Project3\common\src\utils\vec3.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
