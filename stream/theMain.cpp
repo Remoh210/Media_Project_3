@@ -260,7 +260,7 @@ int main() {
 		glfwGetFramebufferSize(_main_window, &_window_width, &_window_height);
 		glViewport(0, 0, _window_width, _window_height);
 
-
+		render_text("Text to speach", -1 + xoffset, 1 - yoffset * sy, sx * 0.5, sy * 0.5);
 
 
 		//TODO6: 

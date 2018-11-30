@@ -1,0 +1,12 @@
+The oldest national parks wind us back billions of years. Others? 
+Still crawling into a fully formed existence.</rate>Each is a postcard from a different era in Earth’s past—step foot here, and it’s the closest you’ll get to hiking through time.
+
+<voice required='Gender=male'><rate speed='-5'>Great Smoky Mountains National Park</rate></voice>
+<voice required='Gender=male'><rate speed='10'>Imagine standing on the eastern edge of North America some 400 million years ago.</rate></voice>
+<voice required='Gender=male'><rate speed='15'>You’re in the sands of a shallow sea, volcanoes at your back, Africa looming in the distance—welcome to Great Smoky Mountains National Park.</rate></voice>
+
+The impending continental collision will take the ground you’re on and raise it to Rocky Mountain heights in a line stretching from Newfoundland to, technically, Morocco. The impact, however, is seen across the globe.
+Building high mountains through continent-continent collision changes Earth’s climate, explains Alexa Sedlacek, Assistant Professor at the University of Northern Iowa. 
+“Parts of the Appalachians weathered so quickly a million-year glacial period ensued” as their erosion removed carbon dioxide from the atmosphere and cooled the climate.
+</speak>
+
