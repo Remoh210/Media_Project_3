@@ -2,7 +2,7 @@
 <s><say-as interpret-as="characters">Still</say-as> crawling into a fully formed existence.</s>
 <s>Each is a postcard from a different era in Earth’s past—step foot here, and it’s the closest you’ll get to hiking through time.</s>
 
-<s><voice required='Gender=male'><rate speed='-5'>Great Smoky Mountains National Park</rate></voice></s>
+<s><voice required='Gender=female'><rate speed='-5'>Great Smoky Mountains National Park</rate></voice></s>
 <voice required='Gender=male'><rate speed='10'>Imagine standing on the eastern edge of North America some 400 million years ago.</rate></voice>
 <voice required='Gender=male'><rate speed='15'>You’re in the sands of a shallow sea, volcanoes at your back, Africa looming in the distance—welcome to Great Smoky Mountains National Park.</rate></voice>
 

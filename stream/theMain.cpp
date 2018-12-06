@@ -135,7 +135,7 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
 		glfwSetWindowShouldClose(window, GLFW_TRUE);
 	}
-	else if (key == GLFW_KEY_RIGHT && action == GLFW_PRESS) {
+	else if (key == GLFW_KEY_P && action == GLFW_PRESS) {
 		_channel[cur]->getPaused(&cur_paused);
 		if (cur_paused == false)
 		{
@@ -153,10 +153,7 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 	}
 
 
-	if (key == GLFW_KEY_5 && action == GLFW_PRESS) {
-		_result = _channel[0]->setPaused(true);
-		_system->playSound(_sound[1], 0, false, &_channel[0]);
-	}
+	
 	if (key == GLFW_KEY_1 && action == GLFW_PRESS) {
 		if (cur != 0) {
 			_result = _channel[cur]->setPaused(true);
